@@ -102,6 +102,10 @@ tfoot td, table th {
     color: var(--white);
 }
 
+.spacing-top {
+	padding-top: 5rem;
+}
+
 .white-bg {
     background: var(--white);
 	color: var(--primary-color);
@@ -186,11 +190,11 @@ tfoot td, table th {
 /* Inicio das classes do menu principal */
 .intro-content {
 	position: relative;
-	/* top: -5rem; */
 	display: grid;
 	grid-template-columns: 1fr 1.5fr;
 	gap: 8rem var(--gap);
 	min-height: 100vh;
+
 }
 
 .intro-text-content, .intro-img {
